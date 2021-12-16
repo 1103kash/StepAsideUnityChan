@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 96620882540941203}
   - component: {fileID: 2932708640464640844}
   - component: {fileID: 6039419759671626235}
-  - component: {fileID: -6916534867680484071}
   m_Layer: 0
   m_Name: gentriggerPrefab
   m_TagString: Untagged
@@ -96,18 +95,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-6916534867680484071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896721666083564579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c1f1e06712254d4e923df6f92bc6184, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carPrefab: {fileID: 6694898279120359995, guid: 9e86a61305bfc1f41be4e2802ca0602c, type: 3}
-  coinPrefab: {fileID: 3625618699848641933, guid: 4a2e353d26f60e543b436667cabcd506, type: 3}
-  conePrefab: {fileID: 1008856133082579916, guid: bedee922759e627478fe277407d87792, type: 3}
